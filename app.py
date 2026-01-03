@@ -38,3 +38,20 @@ else:
             st.error(f"Error loading {selected_folder.name}: {str(e)}")
     else:
         st.error(f"File not found: {day_file}")
+
+# Sidebar Info Link
+st.sidebar.info(
+    "📚 **Learn more about the challenge:**\n\n"
+    "[The 30 Days of AI Challenge](https://discuss.streamlit.io/t/the-30-days-of-ai-challenge-starts-today/120455)"
+)
+
+# Sidebar Footer
+st.sidebar.divider()
+st.sidebar.markdown(
+    """
+    `Indraneel Chakraborty © 2026`
+    [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/ineelhere)
+    [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/indraneelchakraborty)
+    """
+)
+
