@@ -4,13 +4,14 @@ A Streamlit application exploring Snowflake Cortex AI capabilities as part of th
 
 ## Overview
 
-This project demonstrates different AI and LLM features using Streamlit and Snowflake Cortex, building up skills over 5 days:
+This project demonstrates different AI and LLM features using Streamlit and Snowflake Cortex, building up skills over 6 days:
 
 - **Day 1**: Basic AI completion with Cortex
 - **Day 2**: Hello, Cortex! - Simple prompt interaction with usage management
 - **Day 3**: Write Streams - Streaming responses with multiple methods
 - **Day 4**: Caching - Optimizing performance with cached LLM calls
 - **Day 5**: LinkedIn Post Generator - Practical application combining all concepts
+- **Day 6**: LinkedIn Post Generator v2 - Enhanced version with usage management
 
 ## Features
 
@@ -41,8 +42,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day3.py          # Streaming responses
 ├── day4/
 │   └── day4.py          # Cached LLM calls
-└── day5/
-    └── day5.py          # LinkedIn post generator
+├── day5/
+│   └── day5.py          # LinkedIn post generator
+└── day6/
+    └── day6.py          # LinkedIn post generator v2
 ```
 
 ## Installation
