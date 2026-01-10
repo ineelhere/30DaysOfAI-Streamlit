@@ -4,7 +4,7 @@ A Streamlit application exploring Snowflake Cortex AI capabilities as part of th
 
 ## Overview
 
-This project demonstrates different AI and LLM features using Streamlit and Snowflake Cortex, building up skills over 8 days:
+This project demonstrates different AI and LLM features using Streamlit and Snowflake Cortex, building up skills over 30 days (in progress):
 
 - **Day 1**: Basic AI completion with Cortex
 - **Day 2**: Hello, Cortex! - Simple prompt interaction with usage management
@@ -14,7 +14,7 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 6**: LinkedIn Post Generator v2 - Enhanced version with usage management
 - **Day 7**: LinkedIn Post Generator v3 - Advanced version with usage management and status indicators
 - **Day 8**: Chat Interface - Interactive chat with Cortex AI and usage management
-- **Day 8**: Chat Interface - Interactive chat with Cortex AI and usage management
+- **Day 9**: Understanding Session State - Demonstrating the difference between standard variables and session state
 
 ## Features
 
@@ -51,10 +51,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day6.py          # LinkedIn post generator v2
 ├── day7/
 │   └── day7.py          # LinkedIn post generator v3
-└── day8/
-    └── day8.py          # Chat interface with usage management
-└── day8/
-    └── day8.py          # Chat interface with Cortex AI
+├── day8/
+│   └── day8.py          # Chat interface with Cortex AI
+└── day9/
+    └── day9.py          # Understanding Session State
 ```
 
 ## Installation
