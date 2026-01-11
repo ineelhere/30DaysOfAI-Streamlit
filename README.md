@@ -15,6 +15,7 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 7**: LinkedIn Post Generator v3 - Advanced version with usage management and status indicators
 - **Day 8**: Chat Interface - Interactive chat with Cortex AI and usage management
 - **Day 9**: Understanding Session State - Demonstrating the difference between standard variables and session state
+- **Day 10**: Your First Chatbot - A stateful chatbot with session state and usage management
 
 ## Features
 
@@ -53,8 +54,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day7.py          # LinkedIn post generator v3
 ├── day8/
 │   └── day8.py          # Chat interface with Cortex AI
-└── day9/
-    └── day9.py          # Understanding Session State
+├── day9/
+│   └── day9.py          # Understanding Session State
+└── day10/
+    └── day10.py         # First chatbot with state and usage management
 ```
 
 ## Installation
