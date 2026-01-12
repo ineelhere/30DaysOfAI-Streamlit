@@ -16,6 +16,7 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 8**: Chat Interface - Interactive chat with Cortex AI and usage management
 - **Day 9**: Understanding Session State - Demonstrating the difference between standard variables and session state
 - **Day 10**: Your First Chatbot - A stateful chatbot with session state and usage management
+- **Day 11**: Chatbot with History - Enhanced chatbot with conversation history and usage management
 
 ## Features
 
@@ -56,8 +57,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day8.py          # Chat interface with Cortex AI
 ├── day9/
 │   └── day9.py          # Understanding Session State
-└── day10/
-    └── day10.py         # First chatbot with state and usage management
+├── day10/
+│   └── day10.py         # First chatbot with state and usage management
+└── day11/
+    └── day11.py         # Chatbot with history and usage management
 ```
 
 ## Installation
