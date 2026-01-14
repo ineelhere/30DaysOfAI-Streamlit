@@ -8,9 +8,12 @@ st.set_page_config(page_title="30 Days of AI", layout="wide")
 # Sidebar Header
 st.sidebar.title("🤖 30 Days of AI Challenge")
 
-# Get all available day folders
+# Get all available day folders (sorted numerically)
 base_path = Path(__file__).parent
-day_folders = sorted([d for d in base_path.iterdir() if d.is_dir() and d.name.startswith("day")])
+day_folders = sorted(
+    [d for d in base_path.iterdir() if d.is_dir() and d.name.startswith("day")],
+    key=lambda x: int(x.name.replace("day", ""))
+)
 
 if not day_folders:
     st.warning("No day folders found. Please create day1/, day2/, etc. folders with their respective Python files.")
