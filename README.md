@@ -20,6 +20,7 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 12**: Chatbot with Streaming - Streaming responses in chat with usage management
 - **Day 13**: System Prompts - Customizable chatbot personalities with usage management
 - **Day 14**: Avatars & Error Handling - Custom avatars and robust error handling with usage management
+- **Day 15**: Model Comparison Arena - Side-by-side model comparison with usage management
 
 ## Features
 
@@ -68,8 +69,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day12.py         # Chatbot with streaming responses
 ├── day13/
 │   └── day13.py         # Customizable chatbot with system prompts and usage management
-└── day14/
-    └── day14.py         # Avatars and error handling with usage management
+├── day14/
+│   └── day14.py         # Avatars and error handling with usage management
+└── day15/
+    └── day15.py         # Model comparison arena with usage management
 ```
 
 ## Installation
