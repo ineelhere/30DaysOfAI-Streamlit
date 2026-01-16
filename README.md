@@ -4,7 +4,7 @@ A Streamlit application exploring Snowflake Cortex AI capabilities as part of th
 
 ## Overview
 
-This project demonstrates different AI and LLM features using Streamlit and Snowflake Cortex, building up skills over 8 days:
+This project demonstrates different AI and LLM features using Streamlit and Snowflake Cortex, building up skills over 30 days (in progress):
 
 - **Day 1**: Basic AI completion with Cortex
 - **Day 2**: Hello, Cortex! - Simple prompt interaction with usage management
@@ -14,7 +14,13 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 6**: LinkedIn Post Generator v2 - Enhanced version with usage management
 - **Day 7**: LinkedIn Post Generator v3 - Advanced version with usage management and status indicators
 - **Day 8**: Chat Interface - Interactive chat with Cortex AI and usage management
-- **Day 8**: Chat Interface - Interactive chat with Cortex AI and usage management
+- **Day 9**: Understanding Session State - Demonstrating the difference between standard variables and session state
+- **Day 10**: Your First Chatbot - A stateful chatbot with session state and usage management
+- **Day 11**: Chatbot with History - Enhanced chatbot with conversation history and usage management
+- **Day 12**: Chatbot with Streaming - Streaming responses in chat with usage management
+- **Day 13**: System Prompts - Customizable chatbot personalities with usage management
+- **Day 14**: Avatars & Error Handling - Custom avatars and robust error handling with usage management
+- **Day 15**: Model Comparison Arena - Side-by-side model comparison with usage management
 
 ## Features
 
@@ -51,10 +57,22 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day6.py          # LinkedIn post generator v2
 ├── day7/
 │   └── day7.py          # LinkedIn post generator v3
-└── day8/
-    └── day8.py          # Chat interface with usage management
-└── day8/
-    └── day8.py          # Chat interface with Cortex AI
+├── day8/
+│   └── day8.py          # Chat interface with Cortex AI
+├── day9/
+│   └── day9.py          # Understanding Session State
+├── day10/
+│   └── day10.py         # First chatbot with state and usage management
+├── day11/
+│   └── day11.py         # Chatbot with history and usage management
+├── day12/
+│   └── day12.py         # Chatbot with streaming responses
+├── day13/
+│   └── day13.py         # Customizable chatbot with system prompts and usage management
+├── day14/
+│   └── day14.py         # Avatars and error handling with usage management
+└── day15/
+    └── day15.py         # Model comparison arena with usage management
 ```
 
 ## Installation
