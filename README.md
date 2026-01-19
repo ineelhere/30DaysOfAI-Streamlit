@@ -22,7 +22,8 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 14**: Avatars & Error Handling - Custom avatars and robust error handling with usage management
 - **Day 15**: Model Comparison Arena - Side-by-side model comparison with usage management
 - **Day 16**: Batch Document Text Extractor - Extracting text from multiple files (PDF, TXT, MD) and saving to Snowflake for RAG
-- **Day 17**: Data Preparation & Chunking - Loading, processing, and chunking document data for RAG applications
+- **Day 17**: Data Preparation & Chunking - Loading, processing, and chunking customer reviews for RAG applications
+- **Day 18**: Generating Embeddings for Customer Reviews - Converting text into 768-dimensional vectors to enable semantic search for RAG applications
 
 ## Features
 
@@ -77,8 +78,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day15.py         # Model comparison arena with usage management
 ├── day16/
 │   └── day16.py         # Batch document text extractor for RAG
-└── day17/
-    └── day17.py         # Data preparation and chunking for RAG
+├── day17/
+│   └── day17.py         # Data preparation and chunking for RAG
+└── day18/
+    └── day18.py         # Generating embeddings for customer reviews
 ```
 
 ## Installation
