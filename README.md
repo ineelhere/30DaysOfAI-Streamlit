@@ -24,6 +24,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 16**: Batch Document Text Extractor - Extracting text from multiple files (PDF, TXT, MD) and saving to Snowflake for RAG
 - **Day 17**: Data Preparation & Chunking - Loading, processing, and chunking customer reviews for RAG applications
 - **Day 18**: Generating Embeddings for Customer Reviews - Converting text into 768-dimensional vectors to enable semantic search for RAG applications
+- **Day 19**: Cortex Search for Customer Reviews - Creating a semantic search service for processed customer reviews
+- **Day 20**: Querying Cortex Search - Searching and retrieving relevant text chunks using the search service
+- **Day 21**: RAG with Cortex Search - Combining search results with LLM generation for grounded answers (Retrieve-Augment-Generate)
+- **Day 22**: Chat with Your Documents - A conversational RAG chatbot powered by Cortex Search for interactive Q&A
 
 ## Features
 
@@ -80,8 +84,16 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day16.py         # Batch document text extractor for RAG
 ├── day17/
 │   └── day17.py         # Data preparation and chunking for RAG
-└── day18/
-    └── day18.py         # Generating embeddings for customer reviews
+├── day18/
+│   └── day18.py         # Generating embeddings for customer reviews
+├── day19/
+│   └── day19.py         # Cortex Search for customer reviews
+├── day20/
+│   └── day20.py         # Querying Cortex Search
+├── day21/
+│   └── day21.py         # RAG with Cortex Search
+└── day22/
+    └── day22.py         # Chat with documents using RAG
 ```
 
 ## Installation
