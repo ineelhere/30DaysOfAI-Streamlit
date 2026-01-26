@@ -29,6 +29,8 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 21**: RAG with Cortex Search - Combining search results with LLM generation for grounded answers (Retrieve-Augment-Generate)
 - **Day 22**: Chat with Your Documents - A conversational RAG chatbot powered by Cortex Search for interactive Q&A
 - **Day 23**: LLM Evaluation & AI Observability - Measuring RAG quality (Context Relevance, Groundedness, Answer Relevance) using TruLens and Snowflake AI Observability
+- **Day 24**: Working with Images (Multimodality) - Analyzing images using Snowflake Cortex `AI_COMPLETE` and stages
+- **Day 25**: Voice Interface - Transcribing audio and interacting with AI using `AI_TRANSCRIBE` and Streamlit `audio_input`
 
 ## Features
 
@@ -95,8 +97,12 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day21.py         # RAG with Cortex Search
 ├── day22/
 │   └── day22.py         # Chat with documents using RAG
-└── day23/
-    └── day23.py         # LLM evaluation and AI observability
+├── day23/
+│   └── day23.py         # LLM evaluation and AI observability
+├── day24/
+│   └── day24.py         # Image analysis with multimodal AI
+└── day25/
+    └── day25.py         # Voice-enabled AI assistant
 ```
 
 ## Installation
