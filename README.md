@@ -37,6 +37,8 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 ### Core Functionality
 - Integration with **Snowflake Cortex AI** models
 - Support for multiple LLM models (Claude 3.5 Sonnet, Mistral Large, Llama 3.1)
+- Multimodal capabilities (Image analysis and OCR)
+- Voice processing (Audio transcription and interaction)
 - Streaming response support with `st.write_stream()`
 - Response caching for improved performance
 - Built-in usage tracking and rate limiting
@@ -177,9 +179,11 @@ Manages API call limits and tracks usage:
 - `register_call()`: Records a successful API call
 
 ### Models Supported
-- claude-3-5-sonnet (default)
-- mistral-large
-- llama3.1-8b
+- claude-3-5-sonnet (Recommended default)
+- mistral-large / mixtral-8x7b
+- llama3.1-8b / llama3-70b
+- pixtral-large (Vision)
+- openai-gpt-4.1 / o4-mini
 
 ## Requirements
 
