@@ -3,8 +3,8 @@ import streamlit as st
 
 # Connect to Snowflake
 try:
-from snowflake.snowpark.context import get_active_session
-session = get_active_session()
+    from snowflake.snowpark.context import get_active_session
+    session = get_active_session()
 except:
     from snowflake.snowpark import Session
     session = Session.builder.configs(st.secrets["connections"]["snowflake"]).create()
@@ -319,7 +319,7 @@ tables:
             if all_good:
                 status.update(label=":material/celebration: Day 27 data ready! (Day 28+ data optional)", state="complete")
                 st.balloons()
-    else:
+            else:
                 status.update(label="Complete Steps 1-3 for Day 27, Steps 4-5 for Day 28+", state="error")
 
 # Create Agent Tab
@@ -371,8 +371,8 @@ IMPORTANT CONSTRAINTS:
     st.code(create_sql, language="sql")
     
     if st.button(":material/play_arrow: Create Agent", type="primary", use_container_width=True):
-        try:
-            with st.status("Creating agent...") as status:
+        with st.status("Creating agent...") as status:
+            try:
                 try:
                     session.sql("SHOW AGENTS").collect()
                     st.write(":material/check: Cortex Agents available")
@@ -390,7 +390,7 @@ IMPORTANT CONSTRAINTS:
                 st.balloons()
             except Exception as e:
                 st.error(f"Error: {str(e)}")
-            status.update(label="Failed", state="error")
+                status.update(label="Failed", state="error")
 
 st.divider()
 st.caption("Day 26: Introduction to Cortex Agents | Create Your First Agent | 30 Days of AI with Streamlit")
