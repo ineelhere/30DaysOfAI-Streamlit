@@ -29,8 +29,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 21**: RAG with Cortex Search - Combining search results with LLM generation for grounded answers (Retrieve-Augment-Generate)
 - **Day 22**: Chat with Your Documents - A conversational RAG chatbot powered by Cortex Search for interactive Q&A
 - **Day 23**: LLM Evaluation & AI Observability - Measuring RAG quality (Context Relevance, Groundedness, Answer Relevance) using TruLens and Snowflake AI Observability
-- **Day 24**: Working with Images (Multimodality) - Analyzing images using Snowflake Cortex `AI_COMPLETE` and stages
-- **Day 25**: Voice Interface - Transcribing audio and interacting with AI using `AI_TRANSCRIBE` and Streamlit `audio_input`
+- **Day 26**: Introduction to Cortex Agents - Creating the data foundation and configuring your first sales intelligence agent
+- **Day 27**: Multi-Tool Agent Orchestration - Building a sophisticated agent that routes queries between search and analytics tools
+- **Day 28**: Building Apps with AI Assistants - Using `AGENTS.md` to guide AI assistants in building consistent, deployment-ready apps
+- **Day 29**: LangChain Basics - Integrating Snowflake Cortex with LangChain for structured LLM workflows
 
 ## Features
 
@@ -103,8 +105,16 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day23.py         # LLM evaluation and AI observability
 ├── day24/
 │   └── day24.py         # Image analysis with multimodal AI
-└── day25/
-    └── day25.py         # Voice-enabled AI assistant
+├── day25/
+│   └── day25.py         # Voice-enabled AI assistant
+├── day26/
+│   └── day26.py         # Introduction to Cortex Agents
+├── day27/
+│   └── day27.py         # Multi-tool agent orchestration
+├── day28/
+│   └── day28.py         # Building apps with AI assistants (AGENTS.md)
+└── day29/
+    └── day29.py         # LangChain integration with Cortex
 ```
 
 ## Installation
