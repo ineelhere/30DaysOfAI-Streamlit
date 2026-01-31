@@ -33,6 +33,7 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 27**: Multi-Tool Agent Orchestration - Building a sophisticated agent that routes queries between search and analytics tools
 - **Day 28**: Building Apps with AI Assistants - Using `AGENTS.md` to guide AI assistants in building consistent, deployment-ready apps
 - **Day 29**: LangChain Basics - Integrating Snowflake Cortex with LangChain for structured LLM workflows
+- **Day 30**: Structured Output with Pydantic - Generating structured responses using Pydantic and LangChain
 
 ## Features
 
@@ -113,8 +114,10 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day27.py         # Multi-tool agent orchestration
 ├── day28/
 │   └── day28.py         # Building apps with AI assistants (AGENTS.md)
-└── day29/
-    └── day29.py         # LangChain integration with Cortex
+├── day29/
+│   └── day29.py         # LangChain integration with Cortex
+└── day30/
+    └── day30.py         # Structured output with Pydantic
 ```
 
 ## Installation
@@ -138,6 +141,7 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
    ```bash
    pip install -r requirements.txt
    ```
+Be cautious here, as some dependencies may or may not be compatible with your Python version.
 
 4. **Configure Snowflake connection**:
    - Create `.streamlit/secrets.toml` with your Snowflake credentials:
