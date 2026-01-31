@@ -21,12 +21,27 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 - **Day 13**: System Prompts - Customizable chatbot personalities with usage management
 - **Day 14**: Avatars & Error Handling - Custom avatars and robust error handling with usage management
 - **Day 15**: Model Comparison Arena - Side-by-side model comparison with usage management
+- **Day 16**: Batch Document Text Extractor - Extracting text from multiple files (PDF, TXT, MD) and saving to Snowflake for RAG
+- **Day 17**: Data Preparation & Chunking - Loading, processing, and chunking customer reviews for RAG applications
+- **Day 18**: Generating Embeddings for Customer Reviews - Converting text into 768-dimensional vectors to enable semantic search for RAG applications
+- **Day 19**: Cortex Search for Customer Reviews - Creating a semantic search service for processed customer reviews
+- **Day 20**: Querying Cortex Search - Searching and retrieving relevant text chunks using the search service
+- **Day 21**: RAG with Cortex Search - Combining search results with LLM generation for grounded answers (Retrieve-Augment-Generate)
+- **Day 22**: Chat with Your Documents - A conversational RAG chatbot powered by Cortex Search for interactive Q&A
+- **Day 23**: LLM Evaluation & AI Observability - Measuring RAG quality (Context Relevance, Groundedness, Answer Relevance) using TruLens and Snowflake AI Observability
+- **Day 26**: Introduction to Cortex Agents - Creating the data foundation and configuring your first sales intelligence agent
+- **Day 27**: Multi-Tool Agent Orchestration - Building a sophisticated agent that routes queries between search and analytics tools
+- **Day 28**: Building Apps with AI Assistants - Using `AGENTS.md` to guide AI assistants in building consistent, deployment-ready apps
+- **Day 29**: LangChain Basics - Integrating Snowflake Cortex with LangChain for structured LLM workflows
+- **Day 30**: Structured Output with Pydantic - Generating structured responses using Pydantic and LangChain
 
 ## Features
 
 ### Core Functionality
 - Integration with **Snowflake Cortex AI** models
 - Support for multiple LLM models (Claude 3.5 Sonnet, Mistral Large, Llama 3.1)
+- Multimodal capabilities (Image analysis and OCR)
+- Voice processing (Audio transcription and interaction)
 - Streaming response support with `st.write_stream()`
 - Response caching for improved performance
 - Built-in usage tracking and rate limiting
@@ -71,8 +86,38 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
 │   └── day13.py         # Customizable chatbot with system prompts and usage management
 ├── day14/
 │   └── day14.py         # Avatars and error handling with usage management
-└── day15/
-    └── day15.py         # Model comparison arena with usage management
+├── day15/
+│   └── day15.py         # Model comparison arena with usage management
+├── day16/
+│   └── day16.py         # Batch document text extractor for RAG
+├── day17/
+│   └── day17.py         # Data preparation and chunking for RAG
+├── day18/
+│   └── day18.py         # Generating embeddings for customer reviews
+├── day19/
+│   └── day19.py         # Cortex Search for customer reviews
+├── day20/
+│   └── day20.py         # Querying Cortex Search
+├── day21/
+│   └── day21.py         # RAG with Cortex Search
+├── day22/
+│   └── day22.py         # Chat with documents using RAG
+├── day23/
+│   └── day23.py         # LLM evaluation and AI observability
+├── day24/
+│   └── day24.py         # Image analysis with multimodal AI
+├── day25/
+│   └── day25.py         # Voice-enabled AI assistant
+├── day26/
+│   └── day26.py         # Introduction to Cortex Agents
+├── day27/
+│   └── day27.py         # Multi-tool agent orchestration
+├── day28/
+│   └── day28.py         # Building apps with AI assistants (AGENTS.md)
+├── day29/
+│   └── day29.py         # LangChain integration with Cortex
+└── day30/
+    └── day30.py         # Structured output with Pydantic
 ```
 
 ## Installation
@@ -96,6 +141,7 @@ This project demonstrates different AI and LLM features using Streamlit and Snow
    ```bash
    pip install -r requirements.txt
    ```
+Be cautious here, as some dependencies may or may not be compatible with your Python version.
 
 4. **Configure Snowflake connection**:
    - Create `.streamlit/secrets.toml` with your Snowflake credentials:
@@ -147,9 +193,11 @@ Manages API call limits and tracks usage:
 - `register_call()`: Records a successful API call
 
 ### Models Supported
-- claude-3-5-sonnet (default)
-- mistral-large
-- llama3.1-8b
+- claude-3-5-sonnet (Recommended default)
+- mistral-large / mixtral-8x7b
+- llama3.1-8b / llama3-70b
+- pixtral-large (Vision)
+- openai-gpt-4.1 / o4-mini
 
 ## Requirements
 
