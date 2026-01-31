@@ -207,7 +207,3 @@ Manages API call limits and tracks usage:
 - Snowflake Cortex access
 
 See `requirements.txt` for full dependency list.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
